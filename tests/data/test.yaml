@@ -3,5 +3,5 @@ b: two
 c:
   three: four
 d:
-  - five
-  - six
+- 5
+- 6
