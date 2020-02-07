@@ -9,4 +9,4 @@ install:
 script:
 - bandit --exclude /tests -r .
 - flake8 .
-- pytest
+- pytest -vvvvv --cov=data_utils --cov-fail-under=80
