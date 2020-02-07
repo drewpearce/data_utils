@@ -7,6 +7,6 @@ python:
 install:
 - pip install -r requirements-dev.txt
 script:
-- bandit -r .
+- bandit --exclude /tests -r .
 - flake8 .
 - pytest
