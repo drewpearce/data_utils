@@ -31,7 +31,7 @@ def to_json(data):
     if not isinstance(data, (Mapping, list)):
         return data
 
-    return json.dumps(data, indent=2)
+    return json.dumps(data, indent=2, sort_keys=True)
 
 
 def from_yaml(raw):
