@@ -1,0 +1,6 @@
+bandit==1.6.2
+flake8==3.7.9
+hacking==2.0.0
+pytest==5.3.5
+pytest-cover==3.0.0
+-r ./requirements.txt
